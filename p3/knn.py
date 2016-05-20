@@ -4,7 +4,6 @@ from collections import Counter
 
 class Point:
   def __init__(self, ref, pos, label):
-    self.pos = pos
     self.dist = dist(ref, pos)
     self.label = label
 
@@ -39,10 +38,14 @@ def test(ftest, k, sample):
     pos = [float(each) for each in f.readline().split() if each != '']
     points = [Point(pos, pair[0], pair[1]) for pair in sample]
     knn = sorted(points)[:k]
-    print '\n{}. {}:'.format(i+1, pos)
-    for each in knn:
-      print str(each.pos) + " with dist=" + str(each.dist) + " and label=" + str(each.label)
-    label = Counter([p.label for p in knn]).most_common(1)[0][0]
+    counted = Counter([p.label for p in knn])
+    cand = [each for each in counted if counted[each] == counted.most_common(1)[0][1]] # candidates: with max vote
+    if len(cand) > 1: # a tie
+      minDist = min([each.dist for each in knn if each.label in cand])
+      byDist = [each for each in knn if each.dist <= minDist and each.label in cand]
+      label = min([each.label for each in byDist]) if len(byDist) > 1 else byDist[0].label # check distance tie
+    else:
+      label = cand[0]
     print str(i+1) + '. ' + ' '.join([str(each) for each in pos]) + ' -- ' + str(label)
   return
 
