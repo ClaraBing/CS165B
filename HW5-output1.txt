@@ -1,0 +1,83 @@
+Positive examples: 20
+Negative examples: 20
+False positives: 3
+False negatives: 3
+
+Bootstrap sample set 0:
+-1.521 4.2764 - True
+-0.6264 5.2495 - True
+-0.993 5.975 - True
+-0.4251 5.5894 - True
+0.6001 5.5939 - True
+3.8084 3.213 - False
+-2.5864 2.4229 - False
+2.2272 -0.0692 - False
+-4.1555 2.9905 - False
+0.2458 0.07 - False
+
+Bootstrap sample set 1:
+-0.6407 6.8089 - True
+-1.0799 5.1992 - True
+0.6011 5.0923 - True
+0.5712 5.4128 - True
+0.6001 5.5939 - True
+-0.1318 5.5954 - True
+0.1129 0.44 - False
+-0.4336 -0.1685 - False
+-2.5864 2.4229 - False
+4.0341 3.2916 - False
+
+Bootstrap sample set 2:
+-1.441 5.4018 - True
+-0.4251 5.5894 - True
+-0.1318 5.5954 - True
+3.1498 4.4049 - False
+4.7013 2.4903 - False
+-1.2833 -2.329 - False
+-4.1555 2.9905 - False
+1.6853 2.5836 - False
+1.7783 1.2231 - False
+-2.5864 2.4229 - False
+
+
+Classification:
+0.5824 3.9935 - True (correct)
+0.0645 5.6003 - True (correct)
+-1.3615 5.3476 - True (correct)
+-0.1818 4.0605 - True (correct)
+-0.0375 3.1037 - False (incorrect)
+-2.128 3.8231 - True (correct)
+-0.9905 3.827 - True (correct)
+-1.7254 5.2882 - True (correct)
+-1.5942 5.1102 - True (correct)
+0.7871 4.9978 - True (correct)
+0.0931 4.6218 - True (correct)
+-1.4827 4.9562 - True (correct)
+0.9608 6.7382 - True (correct)
+-0.4302 3.3727 - False (incorrect)
+0.1663 5.3763 - True (correct)
+-0.227 3.8511 - True (correct)
+2.0243 2.6405 - False (incorrect)
+-0.51 3.6784 - True (correct)
+-0.6361 5.3179 - True (correct)
+0.138 4.2893 - True (correct)
+0.777 0.6224 - False (correct)
+0.6474 -0.4256 - False (correct)
+1.0486 0.6607 - False (correct)
+2.5088 1.0635 - False (correct)
+1.1569 0.053 - False (correct)
+-1.2884 -0.3712 - False (correct)
+-0.7578 -0.564 - False (correct)
+0.5551 -0.5568 - False (correct)
+-3.8951 2.5907 - False (correct)
+-3.1609 3.4093 - True (incorrect)
+-3.9526 3.3173 - True (incorrect)
+-2.922 4.3244 - True (incorrect)
+-3.2132 2.8655 - False (correct)
+-4.1714 1.6147 - False (correct)
+3.3105 2.7505 - False (correct)
+3.5037 2.1073 - False (correct)
+4.9085 3.1222 - False (correct)
+4.047 2.7731 - False (correct)
+2.8375 3.6901 - False (correct)
+3.5558 1.8797 - False (correct)

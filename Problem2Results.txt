@@ -1,0 +1,1294 @@
+# T = 1
+Positive examples: 20
+Negative examples: 20
+False positives: 5
+False negatives: 4
+
+Bootstrap sample set 0:
+2.4298 1.2078 - True
+3.1537 1.4564 - True
+4.7114 3.4136 - True
+3.4116 0.55 - True
+0.6175 0.963 - True
+3.4798 5.1659 - True
+1.209 4.5694 - True
+0.6175 0.963 - True
+1.7006 1.4126 - True
+2.4298 1.2078 - True
+0.4496 0.0552 - True
+2.9004 1.9861 - True
+0.9084 2.2603 - True
+1.209 4.5694 - True
+3.3101 2.0374 - True
+3.4116 0.55 - True
+2.0 8.0 - True
+3.1537 1.4564 - True
+0.3259 4.5763 - True
+2.0 8.0 - True
+3.4116 0.55 - True
+1.0613 3.5595 - True
+-1.1584 6.4493 - False
+0.9726 6.0603 - False
+-2.615 7.2648 - False
+3.609 3.5566 - False
+1.0987 6.4158 - False
+-2.9378 0.0 - False
+5.0699 6.3405 - False
+-1.8929 4.0599 - False
+-0.7737 6.2962 - False
+0.3829 4.6025 - False
+5.0699 6.3405 - False
+1.0987 6.4158 - False
+-2.9378 0.0 - False
+6.9325 4.642 - False
+-2.615 7.2648 - False
+-2.9378 0.0 - False
+-0.7737 6.2962 - False
+0.875 3.022 - False
+
+
+Classification:
+3.828 2.2475 - True (correct)
+0.6232 0.705 - True (correct)
+3.5761 4.1798 - True (correct)
+0.5868 4.405 - False (incorrect)
+5.085 1.1278 - True (correct)
+3.4224 2.1418 - True (correct)
+1.229 5.0178 - False (incorrect)
+1.6783 8.547 - False (incorrect)
+2.5379 1.9664 - True (correct)
+0.3516 -0.2895 - True (correct)
+2.0374 1.4017 - True (correct)
+1.2838 1.0104 - True (correct)
+1.2471 2.2608 - True (correct)
+3.5255 0.2796 - True (correct)
+3.2511 2.1295 - True (correct)
+2.1793 1.1746 - True (correct)
+0.874 3.5145 - False (incorrect)
+1.6652 3.4238 - True (correct)
+4.1193 3.296 - True (correct)
+3.2768 5.1611 - True (correct)
+-1.0742 5.9619 - False (correct)
+1.441 6.5502 - False (correct)
+0.4775 4.8862 - False (correct)
+-1.0298 6.0519 - False (correct)
+-0.7407 5.7998 - False (correct)
+2.5086 -1.2806 - True (incorrect)
+3.444 3.5849 - True (incorrect)
+2.6215 9.799 - False (correct)
+-2.9212 -0.1842 - True (incorrect)
+7.1086 4.28 - True (incorrect)
+1.1362 6.1356 - False (correct)
+2.418 7.8487 - False (correct)
+-2.25 3.4964 - False (correct)
+0.5592 5.2813 - False (correct)
+4.8558 6.8159 - True (incorrect)
+0.6085 3.6643 - False (correct)
+-2.8227 7.2946 - False (correct)
+0.036 7.2578 - False (correct)
+-1.8902 7.7511 - False (correct)
+-3.9613 8.7616 - False (correct)
+
+# T = 3
+Positive examples: 20
+Negative examples: 20
+False positives: 4
+False negatives: 4
+
+Bootstrap sample set 0:
+3.3101 2.0374 - True
+3.3101 2.0374 - True
+2.9004 1.9861 - True
+4.7114 3.4136 - True
+1.209 4.5694 - True
+4.7114 3.4136 - True
+3.1537 1.4564 - True
+3.4798 5.1659 - True
+2.129 0.6381 - True
+0.3259 4.5763 - True
+1.0613 3.5595 - True
+0.6175 0.963 - True
+2.4298 1.2078 - True
+3.4116 0.55 - True
+3.4798 5.1659 - True
+1.209 4.5694 - True
+3.4116 0.55 - True
+2.9004 1.9861 - True
+0.3259 4.5763 - True
+1.4156 3.1393 - True
+3.4116 0.55 - True
+1.4156 3.1393 - True
+3.583 4.3605 - True
+2.0 8.0 - True
+2.4298 1.2078 - True
+1.7006 1.4126 - True
+2.4298 1.2078 - True
+-2.9378 0.0 - False
+6.9325 4.642 - False
+0.875 3.022 - False
+-1.1584 6.4493 - False
+2.5358 8.0353 - False
+1.0987 6.4158 - False
+3.609 3.5566 - False
+-1.1584 6.4493 - False
+-1.6629 7.5295 - False
+-1.8929 4.0599 - False
+-0.3945 6.8878 - False
+5.0699 6.3405 - False
+-1.6629 7.5295 - False
+
+Bootstrap sample set 1:
+3.3101 2.0374 - True
+4.7114 3.4136 - True
+4.4552 2.2997 - True
+0.9084 2.2603 - True
+4.6936 1.1406 - True
+2.129 0.6381 - True
+2.129 0.6381 - True
+4.4552 2.2997 - True
+4.6936 1.1406 - True
+1.7006 1.4126 - True
+0.3259 4.5763 - True
+1.7006 1.4126 - True
+4.6936 1.1406 - True
+2.129 0.6381 - True
+3.4798 5.1659 - True
+1.209 4.5694 - True
+0.875 3.022 - False
+6.9325 4.642 - False
+2.5358 8.0353 - False
+3.609 3.5566 - False
+-1.2287 5.8284 - False
+-0.3945 6.8878 - False
+1.0987 6.4158 - False
+-0.7737 6.2962 - False
+3.609 3.5566 - False
+3.609 3.5566 - False
+-1.6629 7.5295 - False
+2.5358 8.0353 - False
+-3.627 9.2734 - False
+-1.1584 6.4493 - False
+0.3829 4.6025 - False
+2.6329 9.2341 - False
+0.875 3.022 - False
+-0.3945 6.8878 - False
+-0.3945 6.8878 - False
+-3.627 9.2734 - False
+0.9726 6.0603 - False
+2.6329 9.2341 - False
+5.0699 6.3405 - False
+0.875 3.022 - False
+
+Bootstrap sample set 2:
+0.3259 4.5763 - True
+4.4552 2.2997 - True
+3.1537 1.4564 - True
+0.4496 0.0552 - True
+2.129 0.6381 - True
+0.3259 4.5763 - True
+1.209 4.5694 - True
+0.3259 4.5763 - True
+1.7006 1.4126 - True
+3.4798 5.1659 - True
+0.9084 2.2603 - True
+3.3101 2.0374 - True
+4.4552 2.2997 - True
+2.9004 1.9861 - True
+3.1537 1.4564 - True
+4.4552 2.2997 - True
+1.0613 3.5595 - True
+0.6864 5.0482 - False
+1.0987 6.4158 - False
+-2.9378 0.0 - False
+-0.7737 6.2962 - False
+-1.6629 7.5295 - False
+0.3829 4.6025 - False
+2.6329 9.2341 - False
+3.609 3.5566 - False
+-1.6629 7.5295 - False
+-1.2287 5.8284 - False
+2.1754 -0.6483 - False
+2.1754 -0.6483 - False
+0.9726 6.0603 - False
+2.5358 8.0353 - False
+-1.2287 5.8284 - False
+6.9325 4.642 - False
+-2.615 7.2648 - False
+2.5358 8.0353 - False
+-0.3945 6.8878 - False
+-0.3945 6.8878 - False
+-0.7737 6.2962 - False
+0.875 3.022 - False
+5.0699 6.3405 - False
+
+
+Classification:
+3.828 2.2475 - True (correct)
+0.6232 0.705 - True (correct)
+3.5761 4.1798 - True (correct)
+0.5868 4.405 - False (incorrect)
+5.085 1.1278 - True (correct)
+3.4224 2.1418 - True (correct)
+1.229 5.0178 - False (incorrect)
+1.6783 8.547 - False (incorrect)
+2.5379 1.9664 - True (correct)
+0.3516 -0.2895 - True (correct)
+2.0374 1.4017 - True (correct)
+1.2838 1.0104 - True (correct)
+1.2471 2.2608 - True (correct)
+3.5255 0.2796 - True (correct)
+3.2511 2.1295 - True (correct)
+2.1793 1.1746 - True (correct)
+0.874 3.5145 - True (correct)
+1.6652 3.4238 - True (correct)
+4.1193 3.296 - True (correct)
+3.2768 5.1611 - False (incorrect)
+-1.0742 5.9619 - False (correct)
+1.441 6.5502 - False (correct)
+0.4775 4.8862 - False (correct)
+-1.0298 6.0519 - False (correct)
+-0.7407 5.7998 - False (correct)
+2.5086 -1.2806 - True (incorrect)
+3.444 3.5849 - True (incorrect)
+2.6215 9.799 - False (correct)
+-2.9212 -0.1842 - True (incorrect)
+7.1086 4.28 - True (incorrect)
+1.1362 6.1356 - False (correct)
+2.418 7.8487 - False (correct)
+-2.25 3.4964 - False (correct)
+0.5592 5.2813 - False (correct)
+4.8558 6.8159 - False (correct)
+0.6085 3.6643 - False (correct)
+-2.8227 7.2946 - False (correct)
+0.036 7.2578 - False (correct)
+-1.8902 7.7511 - False (correct)
+-3.9613 8.7616 - False (correct)
+
+# T = 5
+Positive examples: 20
+Negative examples: 20
+False positives: 5
+False negatives: 4
+
+Bootstrap sample set 0:
+1.4156 3.1393 - True
+0.3259 4.5763 - True
+4.4552 2.2997 - True
+0.4496 0.0552 - True
+1.7006 1.4126 - True
+2.0 8.0 - True
+4.7114 3.4136 - True
+3.4798 5.1659 - True
+1.4156 3.1393 - True
+1.0613 3.5595 - True
+4.4552 2.2997 - True
+1.209 4.5694 - True
+2.9004 1.9861 - True
+3.1537 1.4564 - True
+0.3259 4.5763 - True
+0.4496 0.0552 - True
+2.9004 1.9861 - True
+1.209 4.5694 - True
+0.3259 4.5763 - True
+2.1754 -0.6483 - False
+2.1754 -0.6483 - False
+0.6864 5.0482 - False
+0.9726 6.0603 - False
+-3.627 9.2734 - False
+-3.627 9.2734 - False
+-2.615 7.2648 - False
+2.1754 -0.6483 - False
+2.6329 9.2341 - False
+0.3829 4.6025 - False
+2.5358 8.0353 - False
+-2.9378 0.0 - False
+0.6864 5.0482 - False
+0.875 3.022 - False
+0.3829 4.6025 - False
+-0.7737 6.2962 - False
+-3.627 9.2734 - False
+-2.615 7.2648 - False
+3.609 3.5566 - False
+0.6864 5.0482 - False
+5.0699 6.3405 - False
+
+Bootstrap sample set 1:
+3.4116 0.55 - True
+3.4116 0.55 - True
+3.583 4.3605 - True
+2.0 8.0 - True
+2.4298 1.2078 - True
+3.4798 5.1659 - True
+3.3101 2.0374 - True
+3.1537 1.4564 - True
+1.4156 3.1393 - True
+3.4798 5.1659 - True
+0.9084 2.2603 - True
+0.6175 0.963 - True
+3.4116 0.55 - True
+0.9084 2.2603 - True
+2.0 8.0 - True
+0.4496 0.0552 - True
+0.6175 0.963 - True
+2.9004 1.9861 - True
+2.0 8.0 - True
+1.4156 3.1393 - True
+1.209 4.5694 - True
+0.4496 0.0552 - True
+0.3829 4.6025 - False
+2.1754 -0.6483 - False
+-1.8929 4.0599 - False
+5.0699 6.3405 - False
+-0.7737 6.2962 - False
+0.6864 5.0482 - False
+-1.2287 5.8284 - False
+0.9726 6.0603 - False
+-3.627 9.2734 - False
+-1.6629 7.5295 - False
+-1.2287 5.8284 - False
+-2.615 7.2648 - False
+-1.2287 5.8284 - False
+6.9325 4.642 - False
+5.0699 6.3405 - False
+2.6329 9.2341 - False
+3.609 3.5566 - False
+2.1754 -0.6483 - False
+
+Bootstrap sample set 2:
+2.0 8.0 - True
+3.4798 5.1659 - True
+1.209 4.5694 - True
+2.9004 1.9861 - True
+4.6936 1.1406 - True
+2.0 8.0 - True
+2.0 8.0 - True
+2.0 8.0 - True
+4.6936 1.1406 - True
+4.7114 3.4136 - True
+3.583 4.3605 - True
+4.4552 2.2997 - True
+3.583 4.3605 - True
+4.4552 2.2997 - True
+2.129 0.6381 - True
+0.6175 0.963 - True
+0.9084 2.2603 - True
+3.583 4.3605 - True
+2.0 8.0 - True
+4.6936 1.1406 - True
+3.4798 5.1659 - True
+2.9004 1.9861 - True
+1.4156 3.1393 - True
+0.9726 6.0603 - False
+3.609 3.5566 - False
+5.0699 6.3405 - False
+0.9726 6.0603 - False
+6.9325 4.642 - False
+6.9325 4.642 - False
+2.5358 8.0353 - False
+2.1754 -0.6483 - False
+2.5358 8.0353 - False
+2.5358 8.0353 - False
+2.1754 -0.6483 - False
+2.5358 8.0353 - False
+2.6329 9.2341 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+-1.8929 4.0599 - False
+0.875 3.022 - False
+
+Bootstrap sample set 3:
+2.9004 1.9861 - True
+2.0 8.0 - True
+3.3101 2.0374 - True
+3.3101 2.0374 - True
+3.3101 2.0374 - True
+1.0613 3.5595 - True
+4.6936 1.1406 - True
+2.0 8.0 - True
+3.4798 5.1659 - True
+4.6936 1.1406 - True
+0.9084 2.2603 - True
+0.9726 6.0603 - False
+2.5358 8.0353 - False
+2.5358 8.0353 - False
+-2.9378 0.0 - False
+-1.8929 4.0599 - False
+0.3829 4.6025 - False
+-1.6629 7.5295 - False
+5.0699 6.3405 - False
+1.0987 6.4158 - False
+-1.8929 4.0599 - False
+5.0699 6.3405 - False
+2.5358 8.0353 - False
+6.9325 4.642 - False
+2.5358 8.0353 - False
+0.875 3.022 - False
+1.0987 6.4158 - False
+6.9325 4.642 - False
+2.6329 9.2341 - False
+6.9325 4.642 - False
+-3.627 9.2734 - False
+-1.8929 4.0599 - False
+-0.3945 6.8878 - False
+-1.2287 5.8284 - False
+0.9726 6.0603 - False
+2.5358 8.0353 - False
+-2.615 7.2648 - False
+0.875 3.022 - False
+6.9325 4.642 - False
+0.9726 6.0603 - False
+
+Bootstrap sample set 4:
+3.583 4.3605 - True
+1.7006 1.4126 - True
+3.4798 5.1659 - True
+2.129 0.6381 - True
+1.0613 3.5595 - True
+3.4116 0.55 - True
+0.9084 2.2603 - True
+1.4156 3.1393 - True
+0.3259 4.5763 - True
+0.9084 2.2603 - True
+1.4156 3.1393 - True
+3.1537 1.4564 - True
+2.4298 1.2078 - True
+0.6175 0.963 - True
+3.583 4.3605 - True
+0.6175 0.963 - True
+1.7006 1.4126 - True
+2.4298 1.2078 - True
+1.0987 6.4158 - False
+-1.1584 6.4493 - False
+-1.6629 7.5295 - False
+5.0699 6.3405 - False
+0.3829 4.6025 - False
+0.6864 5.0482 - False
+5.0699 6.3405 - False
+2.1754 -0.6483 - False
+3.609 3.5566 - False
+-1.2287 5.8284 - False
+0.9726 6.0603 - False
+-2.615 7.2648 - False
+-0.3945 6.8878 - False
+2.5358 8.0353 - False
+5.0699 6.3405 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+0.3829 4.6025 - False
+2.1754 -0.6483 - False
+-1.6629 7.5295 - False
+1.0987 6.4158 - False
+-1.6629 7.5295 - False
+
+
+Classification:
+3.828 2.2475 - True (correct)
+0.6232 0.705 - True (correct)
+3.5761 4.1798 - True (correct)
+0.5868 4.405 - False (incorrect)
+5.085 1.1278 - True (correct)
+3.4224 2.1418 - True (correct)
+1.229 5.0178 - False (incorrect)
+1.6783 8.547 - False (incorrect)
+2.5379 1.9664 - True (correct)
+0.3516 -0.2895 - True (correct)
+2.0374 1.4017 - True (correct)
+1.2838 1.0104 - True (correct)
+1.2471 2.2608 - True (correct)
+3.5255 0.2796 - True (correct)
+3.2511 2.1295 - True (correct)
+2.1793 1.1746 - True (correct)
+0.874 3.5145 - True (correct)
+1.6652 3.4238 - True (correct)
+4.1193 3.296 - True (correct)
+3.2768 5.1611 - False (incorrect)
+-1.0742 5.9619 - False (correct)
+1.441 6.5502 - False (correct)
+0.4775 4.8862 - False (correct)
+-1.0298 6.0519 - False (correct)
+-0.7407 5.7998 - False (correct)
+2.5086 -1.2806 - True (incorrect)
+3.444 3.5849 - True (incorrect)
+2.6215 9.799 - False (correct)
+-2.9212 -0.1842 - True (incorrect)
+7.1086 4.28 - True (incorrect)
+1.1362 6.1356 - False (correct)
+2.418 7.8487 - False (correct)
+-2.25 3.4964 - False (correct)
+0.5592 5.2813 - False (correct)
+4.8558 6.8159 - False (correct)
+0.6085 3.6643 - True (incorrect)
+-2.8227 7.2946 - False (correct)
+0.036 7.2578 - False (correct)
+-1.8902 7.7511 - False (correct)
+-3.9613 8.7616 - False (correct)
+
+# T = 7
+Positive examples: 20
+Negative examples: 20
+False positives: 4
+False negatives: 3
+
+Bootstrap sample set 0:
+0.9084 2.2603 - True
+1.0613 3.5595 - True
+0.9084 2.2603 - True
+0.3259 4.5763 - True
+1.0613 3.5595 - True
+0.4496 0.0552 - True
+0.3259 4.5763 - True
+1.209 4.5694 - True
+2.129 0.6381 - True
+3.4116 0.55 - True
+3.4116 0.55 - True
+2.129 0.6381 - True
+2.129 0.6381 - True
+3.3101 2.0374 - True
+4.6936 1.1406 - True
+4.7114 3.4136 - True
+4.7114 3.4136 - True
+2.4298 1.2078 - True
+2.9004 1.9861 - True
+0.6175 0.963 - True
+4.4552 2.2997 - True
+0.4496 0.0552 - True
+4.4552 2.2997 - True
+0.3259 4.5763 - True
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+-3.627 9.2734 - False
+2.5358 8.0353 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+0.6864 5.0482 - False
+-2.9378 0.0 - False
+3.609 3.5566 - False
+-3.627 9.2734 - False
+-1.8929 4.0599 - False
+-1.6629 7.5295 - False
+2.6329 9.2341 - False
+0.6864 5.0482 - False
+0.6864 5.0482 - False
+1.0987 6.4158 - False
+
+Bootstrap sample set 1:
+4.7114 3.4136 - True
+2.9004 1.9861 - True
+0.6175 0.963 - True
+4.6936 1.1406 - True
+2.9004 1.9861 - True
+0.9084 2.2603 - True
+1.209 4.5694 - True
+2.0 8.0 - True
+2.9004 1.9861 - True
+3.4798 5.1659 - True
+2.4298 1.2078 - True
+2.0 8.0 - True
+0.4496 0.0552 - True
+0.6175 0.963 - True
+2.9004 1.9861 - True
+0.3259 4.5763 - True
+1.0613 3.5595 - True
+2.9004 1.9861 - True
+2.0 8.0 - True
+1.0613 3.5595 - True
+-1.8929 4.0599 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+-0.7737 6.2962 - False
+2.5358 8.0353 - False
+0.6864 5.0482 - False
+2.1754 -0.6483 - False
+2.5358 8.0353 - False
+-2.615 7.2648 - False
+-0.7737 6.2962 - False
+-1.2287 5.8284 - False
+-0.7737 6.2962 - False
+-0.7737 6.2962 - False
+-0.7737 6.2962 - False
+0.875 3.022 - False
+0.6864 5.0482 - False
+5.0699 6.3405 - False
+3.609 3.5566 - False
+2.5358 8.0353 - False
+0.6864 5.0482 - False
+
+Bootstrap sample set 2:
+4.7114 3.4136 - True
+0.6175 0.963 - True
+3.1537 1.4564 - True
+2.4298 1.2078 - True
+3.583 4.3605 - True
+0.4496 0.0552 - True
+1.209 4.5694 - True
+3.1537 1.4564 - True
+0.9084 2.2603 - True
+0.4496 0.0552 - True
+2.129 0.6381 - True
+3.4798 5.1659 - True
+3.3101 2.0374 - True
+3.3101 2.0374 - True
+3.4116 0.55 - True
+2.4298 1.2078 - True
+0.3259 4.5763 - True
+3.583 4.3605 - True
+2.0 8.0 - True
+1.4156 3.1393 - True
+3.609 3.5566 - False
+-1.2287 5.8284 - False
+-1.2287 5.8284 - False
+0.875 3.022 - False
+-1.2287 5.8284 - False
+-1.2287 5.8284 - False
+0.6864 5.0482 - False
+-2.615 7.2648 - False
+6.9325 4.642 - False
+0.6864 5.0482 - False
+-1.2287 5.8284 - False
+-1.6629 7.5295 - False
+0.6864 5.0482 - False
+-1.6629 7.5295 - False
+-1.1584 6.4493 - False
+3.609 3.5566 - False
+0.3829 4.6025 - False
+-0.7737 6.2962 - False
+2.5358 8.0353 - False
+0.875 3.022 - False
+
+Bootstrap sample set 3:
+1.209 4.5694 - True
+0.6175 0.963 - True
+1.4156 3.1393 - True
+4.7114 3.4136 - True
+2.0 8.0 - True
+0.9084 2.2603 - True
+1.4156 3.1393 - True
+4.6936 1.1406 - True
+0.4496 0.0552 - True
+1.0613 3.5595 - True
+4.7114 3.4136 - True
+1.0613 3.5595 - True
+1.209 4.5694 - True
+4.6936 1.1406 - True
+0.4496 0.0552 - True
+3.4116 0.55 - True
+3.583 4.3605 - True
+4.7114 3.4136 - True
+6.9325 4.642 - False
+-1.8929 4.0599 - False
+-2.615 7.2648 - False
+-1.6629 7.5295 - False
+-1.1584 6.4493 - False
+5.0699 6.3405 - False
+3.609 3.5566 - False
+2.5358 8.0353 - False
+-3.627 9.2734 - False
+-3.627 9.2734 - False
+0.6864 5.0482 - False
+-0.7737 6.2962 - False
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+6.9325 4.642 - False
+3.609 3.5566 - False
+-3.627 9.2734 - False
+2.1754 -0.6483 - False
+1.0987 6.4158 - False
+3.609 3.5566 - False
+-1.1584 6.4493 - False
+0.875 3.022 - False
+
+Bootstrap sample set 4:
+1.209 4.5694 - True
+3.1537 1.4564 - True
+0.3259 4.5763 - True
+4.7114 3.4136 - True
+0.6175 0.963 - True
+4.7114 3.4136 - True
+1.209 4.5694 - True
+2.0 8.0 - True
+2.129 0.6381 - True
+3.583 4.3605 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+2.129 0.6381 - True
+4.6936 1.1406 - True
+1.4156 3.1393 - True
+1.0613 3.5595 - True
+0.3829 4.6025 - False
+2.6329 9.2341 - False
+0.3829 4.6025 - False
+-1.6629 7.5295 - False
+2.6329 9.2341 - False
+5.0699 6.3405 - False
+0.6864 5.0482 - False
+5.0699 6.3405 - False
+2.1754 -0.6483 - False
+-1.2287 5.8284 - False
+-0.7737 6.2962 - False
+0.6864 5.0482 - False
+0.3829 4.6025 - False
+-2.9378 0.0 - False
+0.875 3.022 - False
+3.609 3.5566 - False
+-1.8929 4.0599 - False
+5.0699 6.3405 - False
+2.5358 8.0353 - False
+-1.8929 4.0599 - False
+0.875 3.022 - False
+-0.7737 6.2962 - False
+-1.8929 4.0599 - False
+0.6864 5.0482 - False
+
+Bootstrap sample set 5:
+3.4798 5.1659 - True
+3.4116 0.55 - True
+3.3101 2.0374 - True
+4.6936 1.1406 - True
+4.6936 1.1406 - True
+4.4552 2.2997 - True
+1.7006 1.4126 - True
+3.3101 2.0374 - True
+0.6175 0.963 - True
+2.4298 1.2078 - True
+3.4798 5.1659 - True
+4.7114 3.4136 - True
+1.0613 3.5595 - True
+3.3101 2.0374 - True
+1.0613 3.5595 - True
+4.7114 3.4136 - True
+0.6175 0.963 - True
+1.7006 1.4126 - True
+3.1537 1.4564 - True
+0.875 3.022 - False
+0.9726 6.0603 - False
+-1.1584 6.4493 - False
+-1.8929 4.0599 - False
+-0.7737 6.2962 - False
+-0.3945 6.8878 - False
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+-3.627 9.2734 - False
+-0.7737 6.2962 - False
+0.9726 6.0603 - False
+-0.3945 6.8878 - False
+-1.8929 4.0599 - False
+0.875 3.022 - False
+0.9726 6.0603 - False
+3.609 3.5566 - False
+2.5358 8.0353 - False
+3.609 3.5566 - False
+3.609 3.5566 - False
+-2.9378 0.0 - False
+
+Bootstrap sample set 6:
+3.4798 5.1659 - True
+1.7006 1.4126 - True
+1.209 4.5694 - True
+2.4298 1.2078 - True
+3.4798 5.1659 - True
+3.1537 1.4564 - True
+1.7006 1.4126 - True
+2.4298 1.2078 - True
+0.9084 2.2603 - True
+3.583 4.3605 - True
+1.4156 3.1393 - True
+0.4496 0.0552 - True
+0.9084 2.2603 - True
+3.583 4.3605 - True
+0.3259 4.5763 - True
+2.0 8.0 - True
+3.583 4.3605 - True
+4.4552 2.2997 - True
+2.5358 8.0353 - False
+-1.1584 6.4493 - False
+6.9325 4.642 - False
+0.875 3.022 - False
+-1.6629 7.5295 - False
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+-2.615 7.2648 - False
+2.6329 9.2341 - False
+-2.615 7.2648 - False
+-2.9378 0.0 - False
+0.6864 5.0482 - False
+2.1754 -0.6483 - False
+0.9726 6.0603 - False
+3.609 3.5566 - False
+-2.9378 0.0 - False
+2.5358 8.0353 - False
+-0.3945 6.8878 - False
+0.6864 5.0482 - False
+6.9325 4.642 - False
+2.1754 -0.6483 - False
+2.6329 9.2341 - False
+
+
+Classification:
+3.828 2.2475 - True (correct)
+0.6232 0.705 - True (correct)
+3.5761 4.1798 - True (correct)
+0.5868 4.405 - False (incorrect)
+5.085 1.1278 - True (correct)
+3.4224 2.1418 - True (correct)
+1.229 5.0178 - False (incorrect)
+1.6783 8.547 - False (incorrect)
+2.5379 1.9664 - True (correct)
+0.3516 -0.2895 - True (correct)
+2.0374 1.4017 - True (correct)
+1.2838 1.0104 - True (correct)
+1.2471 2.2608 - True (correct)
+3.5255 0.2796 - True (correct)
+3.2511 2.1295 - True (correct)
+2.1793 1.1746 - True (correct)
+0.874 3.5145 - True (correct)
+1.6652 3.4238 - True (correct)
+4.1193 3.296 - True (correct)
+3.2768 5.1611 - True (correct)
+-1.0742 5.9619 - False (correct)
+1.441 6.5502 - False (correct)
+0.4775 4.8862 - False (correct)
+-1.0298 6.0519 - False (correct)
+-0.7407 5.7998 - False (correct)
+2.5086 -1.2806 - True (incorrect)
+3.444 3.5849 - True (incorrect)
+2.6215 9.799 - False (correct)
+-2.9212 -0.1842 - True (incorrect)
+7.1086 4.28 - True (incorrect)
+1.1362 6.1356 - False (correct)
+2.418 7.8487 - False (correct)
+-2.25 3.4964 - False (correct)
+0.5592 5.2813 - False (correct)
+4.8558 6.8159 - False (correct)
+0.6085 3.6643 - False (correct)
+-2.8227 7.2946 - False (correct)
+0.036 7.2578 - False (correct)
+-1.8902 7.7511 - False (correct)
+-3.9613 8.7616 - False (correct)
+
+# T = 9
+Positive examples: 20
+Negative examples: 20
+False positives: 5
+False negatives: 4
+
+Bootstrap sample set 0:
+2.0 8.0 - True
+2.4298 1.2078 - True
+1.7006 1.4126 - True
+3.3101 2.0374 - True
+2.4298 1.2078 - True
+4.7114 3.4136 - True
+2.0 8.0 - True
+1.0613 3.5595 - True
+3.583 4.3605 - True
+1.4156 3.1393 - True
+4.4552 2.2997 - True
+3.3101 2.0374 - True
+0.4496 0.0552 - True
+1.0613 3.5595 - True
+4.7114 3.4136 - True
+1.0613 3.5595 - True
+1.4156 3.1393 - True
+1.7006 1.4126 - True
+2.0 8.0 - True
+5.0699 6.3405 - False
+0.6864 5.0482 - False
+-1.1584 6.4493 - False
+2.1754 -0.6483 - False
+6.9325 4.642 - False
+2.6329 9.2341 - False
+2.5358 8.0353 - False
+-3.627 9.2734 - False
+-2.9378 0.0 - False
+3.609 3.5566 - False
+-1.6629 7.5295 - False
+0.9726 6.0603 - False
+1.0987 6.4158 - False
+2.6329 9.2341 - False
+2.5358 8.0353 - False
+2.5358 8.0353 - False
+-2.9378 0.0 - False
+-1.8929 4.0599 - False
+2.6329 9.2341 - False
+-2.9378 0.0 - False
+0.9726 6.0603 - False
+
+Bootstrap sample set 1:
+0.4496 0.0552 - True
+3.583 4.3605 - True
+1.0613 3.5595 - True
+3.3101 2.0374 - True
+2.129 0.6381 - True
+1.0613 3.5595 - True
+2.129 0.6381 - True
+4.7114 3.4136 - True
+0.3259 4.5763 - True
+2.4298 1.2078 - True
+0.6175 0.963 - True
+4.6936 1.1406 - True
+3.3101 2.0374 - True
+3.3101 2.0374 - True
+3.1537 1.4564 - True
+1.209 4.5694 - True
+0.6175 0.963 - True
+2.9004 1.9861 - True
+2.9004 1.9861 - True
+4.7114 3.4136 - True
+2.129 0.6381 - True
+-3.627 9.2734 - False
+1.0987 6.4158 - False
+0.875 3.022 - False
+0.6864 5.0482 - False
+0.875 3.022 - False
+-2.9378 0.0 - False
+6.9325 4.642 - False
+-1.8929 4.0599 - False
+-1.1584 6.4493 - False
+0.6864 5.0482 - False
+-1.2287 5.8284 - False
+0.875 3.022 - False
+2.6329 9.2341 - False
+1.0987 6.4158 - False
+-1.8929 4.0599 - False
+1.0987 6.4158 - False
+3.609 3.5566 - False
+3.609 3.5566 - False
+1.0987 6.4158 - False
+
+Bootstrap sample set 2:
+4.6936 1.1406 - True
+3.583 4.3605 - True
+2.4298 1.2078 - True
+0.4496 0.0552 - True
+0.9084 2.2603 - True
+3.4798 5.1659 - True
+2.129 0.6381 - True
+2.9004 1.9861 - True
+1.0613 3.5595 - True
+3.4116 0.55 - True
+0.6175 0.963 - True
+3.4116 0.55 - True
+0.6175 0.963 - True
+0.9084 2.2603 - True
+1.4156 3.1393 - True
+2.4298 1.2078 - True
+1.7006 1.4126 - True
+3.4798 5.1659 - True
+2.9004 1.9861 - True
+2.5358 8.0353 - False
+0.875 3.022 - False
+-2.9378 0.0 - False
+2.6329 9.2341 - False
+2.5358 8.0353 - False
+-2.9378 0.0 - False
+-0.3945 6.8878 - False
+0.3829 4.6025 - False
+-0.3945 6.8878 - False
+-1.8929 4.0599 - False
+-1.8929 4.0599 - False
+-0.3945 6.8878 - False
+2.5358 8.0353 - False
+3.609 3.5566 - False
+-3.627 9.2734 - False
+0.9726 6.0603 - False
+0.6864 5.0482 - False
+6.9325 4.642 - False
+5.0699 6.3405 - False
+2.1754 -0.6483 - False
+1.0987 6.4158 - False
+
+Bootstrap sample set 3:
+3.3101 2.0374 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+3.583 4.3605 - True
+4.7114 3.4136 - True
+2.129 0.6381 - True
+0.4496 0.0552 - True
+1.0613 3.5595 - True
+0.6175 0.963 - True
+4.7114 3.4136 - True
+1.7006 1.4126 - True
+2.9004 1.9861 - True
+4.7114 3.4136 - True
+4.7114 3.4136 - True
+3.4798 5.1659 - True
+3.4116 0.55 - True
+3.1537 1.4564 - True
+2.129 0.6381 - True
+3.3101 2.0374 - True
+4.6936 1.1406 - True
+4.6936 1.1406 - True
+0.875 3.022 - False
+-1.1584 6.4493 - False
+-1.1584 6.4493 - False
+5.0699 6.3405 - False
+0.6864 5.0482 - False
+-1.8929 4.0599 - False
+-0.7737 6.2962 - False
+5.0699 6.3405 - False
+-3.627 9.2734 - False
+2.5358 8.0353 - False
+2.1754 -0.6483 - False
+-1.1584 6.4493 - False
+2.1754 -0.6483 - False
+-1.8929 4.0599 - False
+2.5358 8.0353 - False
+-1.6629 7.5295 - False
+2.5358 8.0353 - False
+-1.1584 6.4493 - False
+-0.7737 6.2962 - False
+
+Bootstrap sample set 4:
+2.9004 1.9861 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+0.3259 4.5763 - True
+1.4156 3.1393 - True
+1.7006 1.4126 - True
+2.9004 1.9861 - True
+4.4552 2.2997 - True
+3.4116 0.55 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+3.1537 1.4564 - True
+2.129 0.6381 - True
+1.0613 3.5595 - True
+0.4496 0.0552 - True
+6.9325 4.642 - False
+0.3829 4.6025 - False
+-1.2287 5.8284 - False
+-2.9378 0.0 - False
+5.0699 6.3405 - False
+2.6329 9.2341 - False
+-1.8929 4.0599 - False
+0.3829 4.6025 - False
+-2.9378 0.0 - False
+0.3829 4.6025 - False
+-1.8929 4.0599 - False
+-2.9378 0.0 - False
+3.609 3.5566 - False
+0.6864 5.0482 - False
+0.3829 4.6025 - False
+0.875 3.022 - False
+-1.2287 5.8284 - False
+-2.9378 0.0 - False
+2.1754 -0.6483 - False
+0.6864 5.0482 - False
+1.0987 6.4158 - False
+6.9325 4.642 - False
+0.3829 4.6025 - False
+6.9325 4.642 - False
+-2.615 7.2648 - False
+
+Bootstrap sample set 5:
+2.0 8.0 - True
+2.129 0.6381 - True
+1.209 4.5694 - True
+3.4798 5.1659 - True
+0.3259 4.5763 - True
+3.4798 5.1659 - True
+3.4798 5.1659 - True
+3.1537 1.4564 - True
+2.129 0.6381 - True
+1.4156 3.1393 - True
+3.583 4.3605 - True
+1.4156 3.1393 - True
+3.4116 0.55 - True
+0.6175 0.963 - True
+3.1537 1.4564 - True
+0.6175 0.963 - True
+3.583 4.3605 - True
+3.4798 5.1659 - True
+1.7006 1.4126 - True
+2.0 8.0 - True
+4.6936 1.1406 - True
+-1.1584 6.4493 - False
+-3.627 9.2734 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+6.9325 4.642 - False
+2.5358 8.0353 - False
+0.9726 6.0603 - False
+0.6864 5.0482 - False
+1.0987 6.4158 - False
+-3.627 9.2734 - False
+1.0987 6.4158 - False
+2.6329 9.2341 - False
+6.9325 4.642 - False
+-2.9378 0.0 - False
+0.875 3.022 - False
+3.609 3.5566 - False
+-2.615 7.2648 - False
+-0.3945 6.8878 - False
+-2.615 7.2648 - False
+
+Bootstrap sample set 6:
+1.0613 3.5595 - True
+0.3259 4.5763 - True
+1.209 4.5694 - True
+1.209 4.5694 - True
+3.3101 2.0374 - True
+2.9004 1.9861 - True
+2.4298 1.2078 - True
+1.7006 1.4126 - True
+2.129 0.6381 - True
+1.209 4.5694 - True
+4.7114 3.4136 - True
+2.129 0.6381 - True
+1.7006 1.4126 - True
+4.6936 1.1406 - True
+3.3101 2.0374 - True
+0.6175 0.963 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+0.4496 0.0552 - True
+-0.7737 6.2962 - False
+-2.615 7.2648 - False
+-2.9378 0.0 - False
+-1.2287 5.8284 - False
+-1.6629 7.5295 - False
+1.0987 6.4158 - False
+0.6864 5.0482 - False
+-1.2287 5.8284 - False
+6.9325 4.642 - False
+2.6329 9.2341 - False
+-0.3945 6.8878 - False
+0.3829 4.6025 - False
+0.3829 4.6025 - False
+5.0699 6.3405 - False
+-2.615 7.2648 - False
+0.6864 5.0482 - False
+0.3829 4.6025 - False
+6.9325 4.642 - False
+2.6329 9.2341 - False
+0.3829 4.6025 - False
+5.0699 6.3405 - False
+
+Bootstrap sample set 7:
+3.1537 1.4564 - True
+0.3259 4.5763 - True
+0.3259 4.5763 - True
+4.7114 3.4136 - True
+0.3259 4.5763 - True
+1.7006 1.4126 - True
+1.209 4.5694 - True
+1.0613 3.5595 - True
+1.4156 3.1393 - True
+0.3259 4.5763 - True
+3.4798 5.1659 - True
+1.4156 3.1393 - True
+0.3259 4.5763 - True
+3.4798 5.1659 - True
+1.4156 3.1393 - True
+3.4798 5.1659 - True
+3.4798 5.1659 - True
+1.7006 1.4126 - True
+0.6175 0.963 - True
+0.3259 4.5763 - True
+3.1537 1.4564 - True
+0.6175 0.963 - True
+-2.9378 0.0 - False
+-1.6629 7.5295 - False
+6.9325 4.642 - False
+-3.627 9.2734 - False
+1.0987 6.4158 - False
+-3.627 9.2734 - False
+0.6864 5.0482 - False
+1.0987 6.4158 - False
+0.875 3.022 - False
+0.9726 6.0603 - False
+-2.9378 0.0 - False
+3.609 3.5566 - False
+0.9726 6.0603 - False
+-0.7737 6.2962 - False
+0.6864 5.0482 - False
+2.1754 -0.6483 - False
+0.6864 5.0482 - False
+-1.6629 7.5295 - False
+
+Bootstrap sample set 8:
+1.0613 3.5595 - True
+0.6175 0.963 - True
+2.129 0.6381 - True
+4.7114 3.4136 - True
+2.9004 1.9861 - True
+2.0 8.0 - True
+0.3259 4.5763 - True
+0.9084 2.2603 - True
+2.0 8.0 - True
+4.4552 2.2997 - True
+2.4298 1.2078 - True
+4.7114 3.4136 - True
+1.0613 3.5595 - True
+2.9004 1.9861 - True
+1.4156 3.1393 - True
+3.1537 1.4564 - True
+1.209 4.5694 - True
+0.4496 0.0552 - True
+3.583 4.3605 - True
+0.9084 2.2603 - True
+3.583 4.3605 - True
+3.583 4.3605 - True
+2.4298 1.2078 - True
+-3.627 9.2734 - False
+2.5358 8.0353 - False
+0.6864 5.0482 - False
+-0.7737 6.2962 - False
+1.0987 6.4158 - False
+-0.7737 6.2962 - False
+6.9325 4.642 - False
+-2.615 7.2648 - False
+6.9325 4.642 - False
+2.1754 -0.6483 - False
+5.0699 6.3405 - False
+-1.6629 7.5295 - False
+-3.627 9.2734 - False
+2.6329 9.2341 - False
+1.0987 6.4158 - False
+6.9325 4.642 - False
+6.9325 4.642 - False
+
+
+Classification:
+3.828 2.2475 - True (correct)
+0.6232 0.705 - True (correct)
+3.5761 4.1798 - True (correct)
+0.5868 4.405 - False (incorrect)
+5.085 1.1278 - True (correct)
+3.4224 2.1418 - True (correct)
+1.229 5.0178 - False (incorrect)
+1.6783 8.547 - False (incorrect)
+2.5379 1.9664 - True (correct)
+0.3516 -0.2895 - True (correct)
+2.0374 1.4017 - True (correct)
+1.2838 1.0104 - True (correct)
+1.2471 2.2608 - True (correct)
+3.5255 0.2796 - True (correct)
+3.2511 2.1295 - True (correct)
+2.1793 1.1746 - True (correct)
+0.874 3.5145 - True (correct)
+1.6652 3.4238 - True (correct)
+4.1193 3.296 - True (correct)
+3.2768 5.1611 - False (incorrect)
+-1.0742 5.9619 - False (correct)
+1.441 6.5502 - False (correct)
+0.4775 4.8862 - False (correct)
+-1.0298 6.0519 - False (correct)
+-0.7407 5.7998 - False (correct)
+2.5086 -1.2806 - True (incorrect)
+3.444 3.5849 - True (incorrect)
+2.6215 9.799 - False (correct)
+-2.9212 -0.1842 - True (incorrect)
+7.1086 4.28 - True (incorrect)
+1.1362 6.1356 - False (correct)
+2.418 7.8487 - False (correct)
+-2.25 3.4964 - False (correct)
+0.5592 5.2813 - False (correct)
+4.8558 6.8159 - False (correct)
+0.6085 3.6643 - True (incorrect)
+-2.8227 7.2946 - False (correct)
+0.036 7.2578 - False (correct)
+-1.8902 7.7511 - False (correct)
+-3.9613 8.7616 - False (correct)
